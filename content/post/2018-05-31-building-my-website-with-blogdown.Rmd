@@ -41,7 +41,7 @@ Then I followed the example `.md` files, added my new content, and deleted the o
 
 ## Deployment
 
-I used Netlify to publish my site. 
+First I created a repo on github and pushed all of my files to the new repo. 
 
 ## Summary
 
