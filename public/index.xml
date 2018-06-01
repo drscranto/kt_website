@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Katie Scranton on Katie Scranton</title>
+    <link>/</link>
+    <description>Recent content in Katie Scranton on Katie Scranton</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>R-Ladies</title>
+      <link>/project/r-ladies/</link>
+      <pubDate>Fri, 01 Jun 2018 11:39:30 -0700</pubDate>
+      
+      <guid>/project/r-ladies/</guid>
+      <description>&lt;p&gt;RLadies is a world-wide network of meetup groups for people who identify with a gender minority. We encourage people to learn and use R as well as become more involved int he R community.&lt;/p&gt;
+
+&lt;p&gt;As the founder and organizer of the local Los Angeles branch of RLadies, I held monthly meetups that highlighted the work of local women, lead attendees through a tutorial, or explored an advanced topic.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building my website with blogdown</title>
+      <link>/post/building-my-website-with-blogdown/</link>
+      <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/building-my-website-with-blogdown/</guid>
+      <description>&lt;p&gt;This is my third attempt at building a website, including an (overly?) ambitious idea to document all of the #Rcats and #Rdogs (and #Rchickens Lucy!) on twitter. After two false starts caused by a combination of teaching responsibilities, making time to snuggle my doggos, and some general anxiety, I think this time is my proverbial charm.&lt;/p&gt;
+&lt;p&gt;First a shoutout to the excellent tutorials by Yihui Xie, Amber Thomas, and Alison Presmanes Hill. I first used the &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34;&gt;blogdown book&lt;/a&gt; as a guide, then discovered this &lt;a href=&#34;https://www.rstudio.com/resources/webinars/introducing-blogdown/&#34;&gt;RStudio video tutorial&lt;/a&gt; which I also loved. I won’t recreate a tutorial here, just add some commentary on the mistakes I made and the tips I learned.&lt;/p&gt;
+&lt;div id=&#34;starting-from-scratch&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Starting from scratch&lt;/h2&gt;
+&lt;p&gt;First, I took the excellent advice of keeping my theme simple in order to spend my time on content at first. Because you can take the girl out of academia but not the hugo-academic theme out of the girl, I chose to stick with one of the simpler themes.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown::new_site(theme=&amp;quot;gcushen/hugo-academic&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Please don’t underestimate the amount of time I will spend on making any type of visualization look exactly, specifically the way I see it in my head. I would have spent all day choosing and modifying a theme and had no website at the end.&lt;/p&gt;
+&lt;p&gt;I started by modifying the existing &lt;code&gt;about.md&lt;/code&gt; file in the home directory, as much as I wished I could be Lena Smith. I do feel bad for all of the actual Lena Smith’s who are now impossible to google thanks to all of the default About sections left on half-finished blogdown websites. I also modified the &lt;code&gt;config.toml&lt;/code&gt; file with my own info and I changed the order of the pages in the navigation using the weight option in each &lt;code&gt;[[menu.main]]&lt;/code&gt; item. I also chose to delete the &lt;code&gt;Contact&lt;/code&gt; option since literally every way to get in touch with me is right at the top, underneath my face :)&lt;/p&gt;
+&lt;p&gt;From there I worked my way on from replacing Lena with myself, in order down the page. So as not to be overwhelemed, I just added one item to each section; for Publications I added one paper, for Talks, just the most recent talk, etc. Once I finish I can go back and fill in the rest. To add anything new to any of the sections I used &lt;code&gt;new_content&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown::new_content(&amp;quot;publication/abc-pop-ecology.md&amp;quot;)
+blogdown::new_content(&amp;quot;talk/rladies-la-2018-04-28-purrr.md&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then I followed the example &lt;code&gt;.md&lt;/code&gt; files, added my new content, and deleted the old files. So now the structure of my website is complete and I’ve replaced all of the default content with my specific content. This brings us to minute 41 of the tutorial video. I said shit, I am going to forget how I did all of this better start the blog post now. Making a new blog post is very easy using &lt;code&gt;Addins &amp;gt; New Post&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;deployment&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Deployment&lt;/h2&gt;
+&lt;p&gt;I used Netlify to publish my site.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summary&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;I also want to say I love the workflow mentioned at 46:00 in Yihui’s RStudio video tutorial&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A typical workflow
+&lt;ul&gt;
+&lt;li&gt;Open your website project, click the “Serve Site” addin&lt;/li&gt;
+&lt;li&gt;Revise old pages/posts, or click the “New Post” addin&lt;/li&gt;
+&lt;li&gt;Write and save (take a look at the automatic preview)&lt;/li&gt;
+&lt;li&gt;Push everything to Github&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I want you all to know that I have not abandoned my quest to document the R community’s fur and feather family. That will be another post “blogdown: the squeakquel.”&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>purrr: Functional programming in R at the April RLadies meetup</title>
+      <link>/talk/rladies-la-2018-04-28-purrr/</link>
+      <pubDate>Sat, 28 Apr 2018 12:00:00 -0700</pubDate>
+      
+      <guid>/talk/rladies-la-2018-04-28-purrr/</guid>
+      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Bayesian approach to parameter estimation for a population model</title>
+      <link>/publication/abc-pop-ecology/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/abc-pop-ecology/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

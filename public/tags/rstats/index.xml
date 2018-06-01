@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rstats on Katie Scranton</title>
+    <link>/tags/rstats/</link>
+    <description>Recent content in Rstats on Katie Scranton</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 01 Jun 2018 11:39:30 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/rstats/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R-Ladies</title>
+      <link>/project/r-ladies/</link>
+      <pubDate>Fri, 01 Jun 2018 11:39:30 -0700</pubDate>
+      
+      <guid>/project/r-ladies/</guid>
+      <description>RLadies is a world-wide network of meetup groups for people who identify with a gender minority. We encourage people to learn and use R as well as become more involved int he R community.
+As the founder and organizer of the local Los Angeles branch of RLadies, I held monthly meetups that highlighted the work of local women, lead attendees through a tutorial, or explored an advanced topic.</description>
+    </item>
+    
+  </channel>
+</rss>
