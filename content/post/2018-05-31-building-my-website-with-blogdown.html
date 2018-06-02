@@ -28,14 +28,8 @@ header:
 <pre class="r"><code>blogdown::new_content(&quot;publication/abc-pop-ecology.md&quot;)
 blogdown::new_content(&quot;talk/rladies-la-2018-04-28-purrr.md&quot;)</code></pre>
 <p>Then I followed the example <code>.md</code> files, added my new content, and deleted the old files. So now the structure of my website is complete and I’ve replaced all of the default content with my specific content. This brings us to minute 41 of the tutorial video. I said shit, I am going to forget how I did all of this better start the blog post now. Making a new blog post is very easy using <code>Addins &gt; New Post</code>.</p>
-</div>
-<div id="deployment" class="section level2">
-<h2>Deployment</h2>
-<p>First I created a repo on github and pushed all of my files to the new repo.</p>
-</div>
-<div id="summary" class="section level2">
-<h2>Summary</h2>
-<p>I also want to say I love the workflow mentioned at 46:00 in Yihui’s RStudio video tutorial</p>
+<p>Ready to publish, I created a repo on github and pushed all of my files to the new repo. Then I simply signed up for an account on netlify linked to my github and chose this new repo for my site, following the excellent blogdown book linked above. I needed to add the environmental variable HUGO_VERSION ‘0.40.2’ which was the version of hugo used to build the site locally on my machine (use <code>blogdown::hugo_version()</code> to find the correct version). I have a custom domain that I manage through google domains, so I had to point it to the random domain name assigned by netlify.</p>
+<p>I love the workflow mentioned at 46:00 in Yihui’s RStudio video tutorial</p>
 <ul>
 <li>A typical workflow
 <ul>
@@ -45,5 +39,9 @@ blogdown::new_content(&quot;talk/rladies-la-2018-04-28-purrr.md&quot;)</code></p
 <li>Push everything to Github</li>
 </ul></li>
 </ul>
+</div>
+<div id="qed" class="section level2">
+<h2>QED</h2>
+<p>AND NOW I’M LIVE! <a href="http://www.katiescranton.com">www.katiescranton.com</a></p>
 <p>I want you all to know that I have not abandoned my quest to document the R community’s fur and feather family. That will be another post “blogdown: the squeakquel.”</p>
 </div>
