@@ -6,7 +6,7 @@ header:
   caption: ""
   image: ""
 highlight: true
-image_preview: ""
+image_preview: "sagehen.jpg"
 math: false
 summary: ""
 tags: []

@@ -3,7 +3,7 @@
 date = 2018-06-01T11:39:30-07:00
 
 # Project title.
-title = "R-Ladies Los Angeles Founder and Organizer"
+title = "R-Ladies Los Angeles"
 
 # Project summary to display on homepage.
 summary = "A global network of meetups to encourage and promote gender inclusivity in the R community."

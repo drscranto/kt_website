@@ -6,7 +6,7 @@ header:
   caption: ""
   image: ""
 highlight: true
-image_preview: ""
+image_preview: "scifair.jpg"
 math: false
 summary: "Outreach at various science fairs"
 tags: ["outreach","k12"]
