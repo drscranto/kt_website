@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cvs on Katie Scranton</title>
+    <link>/cv/</link>
+    <description>Recent content in Cvs on Katie Scranton</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 29 Jun 2018 13:01:41 -0400</lastBuildDate>
+    
+	<atom:link href="/cv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Datascience_cv</title>
+      <link>/cv/datascience_cv/</link>
+      <pubDate>Fri, 29 Jun 2018 13:01:41 -0400</pubDate>
+      
+      <guid>/cv/datascience_cv/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

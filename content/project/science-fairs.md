@@ -8,7 +8,7 @@ header:
 highlight: true
 image_preview: "scifair.jpg"
 math: false
-summary: "Outreach at various science fairs"
+summary: ""
 tags: ["outreach","k12"]
 title: Science Fairs
 ---
