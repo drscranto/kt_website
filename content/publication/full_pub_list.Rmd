@@ -1,15 +1,14 @@
 ---
-categories: []
-date: "2018-06-29T12:39:38-04:00"
 title: Peer-reviewed publications
-draft: false
+author: ''
+date: '2018-07-17'
+draft: no
 header:
-  caption: ""
-  image: ""
-tags: []
-bibliography: [all_pubs.bib]
-nocite: | 
-  @valpine2010synchrony, @scranton2013small, @scranton2014approximate, @valpine2014importance, @scranton2016coexistence, @scranton2016importance, @scranton2017predicting, @littrell2018evaluating
-  
-  
+  caption: ''
+  image: ''
+bibliography: all_pubs.bib
+csl: science.csl
+nocite: '@hastings2018longtransients, @littrell2018evaluating, @scranton2017predicting,
+  @scranton2016importance, @scranton2016coexistence, @valpine2014importance, @scranton2014approximate,
+  @scranton2013small, @valpine2010synchrony'
 ---

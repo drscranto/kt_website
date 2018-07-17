@@ -30,6 +30,8 @@ weight = 5
 
 # Welcome!
 
-I'm an applied statistician / data scientist, working in both R and Python, with over 11 years of programming experience and 9 peer reviewed publications. I'm fascinated by the ways variability enters a mechanistic process, changing the patterns that emerge in data. I focus on computational approaches for both frequentist and Bayesian frameworks to account for stochasticity in mathematical models. 
+I'm an applied statistician / data scientist, working in both R and Python, with over 11 years of programming experience and 9 peer reviewed publications. I am an organizer for [RLadies](https://rladies.org/), a global network of meetup groups to support gender diversity in the R community.
 
-I am an organizer for [RLadies](https://rladies.org/), a global network of meetup groups to support gender diversity in the R community. I live with two rescue pups, who I think are really bears just pretending to be dogs. I spend most of my free time drinking coffee, hiking with the doggos, and watching baseball.
+I'm fascinated by the ways variability or noise changes the patterns that we expect to emerge in data. I focus on computational approaches for both frequentist and Bayesian frameworks to account for variability in mechanistic models. 
+
+I live with two rescue pups, Maggie and Ruthie, who I think are really bears just pretending to be dogs. I spend most of my free time drinking coffee, hiking with the doggos, and watching baseball.
