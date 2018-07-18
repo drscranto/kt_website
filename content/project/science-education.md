@@ -5,7 +5,7 @@ external_link: ""
 header:
   caption: ""
   image: ""
-highlight: true
+highlight: false
 image_preview: "sagehen.jpg"
 math: false
 summary: "K-12 experiential science education"

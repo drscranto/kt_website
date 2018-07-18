@@ -5,7 +5,7 @@ external_link: ""
 header:
   caption: ""
   image: ""
-highlight: true
+highlight: false
 image_preview: "maggie-scope.jpg"
 math: false
 summary: "Doctoral and post-doctoral research on population ecology and evolution"

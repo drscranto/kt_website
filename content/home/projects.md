@@ -1,7 +1,7 @@
 +++
 # Projects widget.
 widget = "projects"
-active = true
+active = false
 date = 2016-04-20T00:00:00
 
 title = "Projects"
@@ -33,12 +33,16 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
+  name = "Data Science"
+  tag = ".datasci"
+  
+[[filter]]
   name = "R-Ladies"
   tag = ".rladies"
 
 [[filter]]
-  name = "Other"
-  tag = ".demo"
+  name = "Ecology & Evolution"
+  tag = ".ecoevo"
 
 +++
 

@@ -5,7 +5,7 @@ external_link: ""
 header:
   caption: ""
   image: ""
-highlight: true
+highlight: false
 image_preview: "scifair.jpg"
 math: false
 summary: ""
