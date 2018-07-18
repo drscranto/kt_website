@@ -17,4 +17,4 @@ weight = 30
 
 As a consultant, I am here to provide you with data-centered solutions to improve your business or research. I can help with data analysis, creating tools to allow you to analyze current and future data, and with data visualization, creating figures for publications, technical reports, or for customers. 
 
-[Read on for more information on specific services and contact info ...](freelance/contact)
+[Read on for more information on specific services and contact info ...](services/contact)
