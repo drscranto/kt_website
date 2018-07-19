@@ -1,9 +1,10 @@
 ---
-categories: []
-date: "2018-07-18T15:07:20-04:00"
-draft: false
-tags: []
-title: "Services"
+title: "Data Analysis Services"
+active: true
+date: 2018-07-19T00:00:00
+
+reading_time: false
+
 ---
 
 As a consultant I help individuals and organizations with analyses and visualizations that use data to answer real questions and provide tangible solutions. I implement standard analyses, create specialized analytical models, and everything in between.

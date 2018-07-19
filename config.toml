@@ -108,6 +108,9 @@ enableGitInfo = false
   #   Examples: "3:04 pm" or "15:04"
   time_format = "3:04 PM"
 
+  # custom
+  showthedate = true
+  
   # Show estimated reading time for posts?
   reading_time = true
 
@@ -259,7 +262,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Resume"
-  url = "/public/files/resume_scranton.pdf"
+  url = "https://drive.google.com/file/d/1rx7lbXV0ku3jwtP9segyMsqTTHvHIyiN/view?usp=sharing"
   weight = 2
   
 [[menu.main]]
