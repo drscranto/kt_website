@@ -259,7 +259,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Resume"
-  url = "http://www.katiescranton.com/public/files/resume_scranton.pdf"
+  url = "/public/files/resume_scranton.pdf"
   weight = 2
   
 [[menu.main]]
