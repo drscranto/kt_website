@@ -259,7 +259,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Resume"
-  url = "https://drive.google.com/file/d/1gE84l76jGD1qVWOIpcfcDArlVcto5CQs/view?usp=sharing"
+  url = "http://www.katiescranton.com/public/files/resume_scranton.pdf"
   weight = 2
   
 [[menu.main]]
