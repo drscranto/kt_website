@@ -1,12 +1,8 @@
 ---
-title: Peer-reviewed publications
-author: ''
-date: 2018-07-19T00:00:00
-reading_time: false
-draft: no
-header:
-  caption: ''
-  image: ''
+title: "Peer-reviewed publications"
+active: true
+date: 2018-07-21T00:00:00
+
 bibliography: all_pubs.bib
 csl: science.csl
 nocite: '@hastings2018longtransients, @littrell2018evaluating, @scranton2017predicting,

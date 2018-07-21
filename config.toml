@@ -108,11 +108,10 @@ enableGitInfo = false
   #   Examples: "3:04 pm" or "15:04"
   time_format = "3:04 PM"
 
-  # custom
-  showthedate = true
+  # custom param whether to show the date
   
   # Show estimated reading time for posts?
-  reading_time = true
+  reading_time = false
 
   # Display comment count? Requires commenting to be enabled.
   comment_count = true
@@ -262,7 +261,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Resume"
-  url = "https://drive.google.com/file/d/1rx7lbXV0ku3jwtP9segyMsqTTHvHIyiN/view?usp=sharing"
+  url = "https://drive.google.com/open?id=1rx7lbXV0ku3jwtP9segyMsqTTHvHIyiN"
   weight = 2
   
 [[menu.main]]
