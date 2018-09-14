@@ -9,7 +9,6 @@ highlight: false
 image_preview: "maggie-scope.jpg"
 math: false
 summary: "Doctoral and post-doctoral research on population ecology and evolution"
-tags: ["ecology","evolution"]
 title: Ecology and Evolution
 ---
 

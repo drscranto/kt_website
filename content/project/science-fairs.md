@@ -9,7 +9,6 @@ highlight: false
 image_preview: "scifair.jpg"
 math: false
 summary: ""
-tags: ["outreach","k12"]
 title: Science Fairs
 ---
 
